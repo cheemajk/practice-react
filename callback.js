@@ -22,5 +22,4 @@ function genRandom(start, end) {
   console.log(genRandom(80,90)) // random int between 80 to 90
   
 
-  // this is my adding file
-// i did byself
+  //fun

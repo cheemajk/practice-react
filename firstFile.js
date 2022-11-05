@@ -24,8 +24,4 @@
         return a*b;
     }
     console.log(area(10,20));
-
-
-    //my just comment
-
     // my first git file comment

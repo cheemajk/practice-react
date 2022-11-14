@@ -71,7 +71,7 @@ const cars = ["honda","bmw","range"];
  let number1 = [3,45,12,6,8];
  let removedElemnet = number1.splice(4,1,23); //remove/add 8 remove $23 add 1 means one element remove 
  console.log(removedElemnet);
- console.log(number1);
+ console.log(number1 & element);
 
 
 

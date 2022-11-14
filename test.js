@@ -73,6 +73,7 @@ const cars = ["honda","bmw","range"];
  console.log(removedElemnet);
  console.log(number1);
 
+// learning about git this is my test.js pratics file
 
 
 

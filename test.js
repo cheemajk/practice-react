@@ -69,11 +69,10 @@ const cars = ["honda","bmw","range"];
 
  //splice method
  let number1 = [3,45,12,6,8];
- let removedElemnet = number1.splice(4,1,23); //remove 8 element
+ let removedElemnet = number1.splice(4,1,23); //remove/add 8 remove $23 add 1 means one element remove 
  console.log(removedElemnet);
- console.log(number1);
+ document.getElementById(number1);
 
-// learning about git this is my test.js pratics file
 
 
 

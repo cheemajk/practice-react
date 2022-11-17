@@ -101,7 +101,7 @@ function multiplyBy()
         document.getElementById("result").domhtml = num1 * num2;
 }
 
-const divideBy() 
+function divideBy() 
 { 
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;

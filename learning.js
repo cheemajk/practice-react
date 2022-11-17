@@ -12,19 +12,19 @@ verizon.showMessage();
 
 
 
-function Car(name, color, price, currentSpeed){
+const Car = (name, color, price, currentSpeed) => {
     this.name = name;
     this.color = color;
     this.price = price;
     this.currentSpeed = currentSpeed;
-    this.race = () => {
-        return this.currentSpeed + 1
+    this.accelerate = () => {
+        // add 1 to currentSpeed every time this function gets called, do not go above 100
     },
     this.printSpeed=() => {
         console.log(this.currentSpeed)
     }
     this.break = () => {
-        console.log('Brakes applied.', this.currentSpeed--)
+         // subtract 1 to currentSpeed every time this function gets called, do not go below 0
     }
 }
 
@@ -101,12 +101,9 @@ function multiplyBy()
         document.getElementById("result").domhtml = num1 * num2;
 }
 
-function divideBy() 
+const divideBy() 
 { 
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;
 document.getElementById("result").domhtml = num1 / num2;
 }
-
-
-// Yes, first attempt success

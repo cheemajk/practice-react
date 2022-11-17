@@ -107,3 +107,6 @@ function divideBy()
         num2 = document.getElementById("secondNumber").value;
 document.getElementById("result").domhtml = num1 / num2;
 }
+
+
+// Yes, first attempt success

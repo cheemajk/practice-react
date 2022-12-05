@@ -23,12 +23,6 @@ const employees= [
 
 
 ];
-
-
-
-
-
- 
 employees.map(function (employee) {
     if (employee.age >= 30 && employee.age <= 40) {
         employee.found=true;
@@ -38,10 +32,6 @@ employees.map(function (employee) {
         console.log(employee);
     }
 });
-
-
-//console.log(employees.map(element => element.age>=30 & element.age<=40));
-
 
 
 
